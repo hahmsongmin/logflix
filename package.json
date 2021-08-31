@@ -1,10 +1,10 @@
 {
-  "name": "ivanselah_my_movieslog",
+  "name": "myLogflix",
   "version": "1.0.0",
   "description": "Movies Log",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hahmsongmin/ivanselah_my_movieslog.git"
+    "url": "git+https://github.com/hahmsongmin/imyLogflix.git"
   },
   "scripts": {
     "start": "node build/init.js",
@@ -22,7 +22,7 @@
   "author": "IvanSelah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hahmsongmin/ivanselah_my_movieslog/issues"
+    "url": "https://github.com/hahmsongmin/myLogflix/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
