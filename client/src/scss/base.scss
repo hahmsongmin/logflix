@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+// Config
+@import "./config/reset";
+@import "./config/variable";
+
+// Components 
+@import "./components/navBar.scss";
+@import "./components/form.scss";
+@import "./components/social-login.scss";
+@import "./components/shared.scss";
+@import "./components/loader.scss";
+@import "./components/detail.scss";
+@import "./components/modal.scss";
+@import "./components/userUpdateMessages.scss";
+
+// Screens 
+@import "./Screens/myLog.scss";
+@import "./Screens/myLogPoster.scss";
+@import "./Screens/myLogMemu.scss";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(20,20,20,1);
+    padding-top: 90px;
+    color: #ffff;
+}
+
+a {
+    all: unset;
+    text-decoration: none;
+    color: inherit;
+}

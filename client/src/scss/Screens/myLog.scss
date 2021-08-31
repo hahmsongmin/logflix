@@ -1,0 +1,33 @@
+.myNavBar {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.myNavBarOption {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.myNavBarOption .myNavBarIcons {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.myNavBarOption h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.myNavBarOption:hover {
+  background-color: #ffff;
+  border-radius: 50px;
+  color: #000000;
+  transition: color 100ms ease-out;
+}
+

@@ -1,0 +1,67 @@
+{
+  "name": "ivanselah_my_movieslog",
+  "version": "1.0.0",
+  "description": "Movies Log",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahmsongmin/ivanselah_my_movieslog.git"
+  },
+  "scripts": {
+    "start": "node build/init.js",
+    "build:client": "cd client && npm install && npm run build",
+    "build:server": "babel server -d build",
+    "server": "nodemon --exec babel-node server/init.js",
+    "client": "npm run start --prefix client",
+    "all": "concurrently \"npm run server\" \"npm run client --prefix\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "engines": {
+    "node": "14.17.5",
+    "npm": "6.14.14"
+  },
+  "author": "IvanSelah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hahmsongmin/ivanselah_my_movieslog/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.0",
+    "concurrently": "^6.2.1",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^6.0.1",
+    "prop-types": "^15.7.2",
+    "react-bootstrap": "^2.0.0-beta.5",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-scripts": "4.0.3",
+    "react-refresh": "^0.10.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "css-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "nodemon": "^2.0.12",
+    "sass": "^1.37.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1"
+  }
+}

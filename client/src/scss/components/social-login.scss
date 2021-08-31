@@ -1,0 +1,25 @@
+.social-login {
+    width: 43%;
+    padding: 15px;
+    margin-top: 50px;
+    .social-login__btn{
+        background-color: $mainColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-radius: 7px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        color:#fff;
+        &:hover {
+            background-color: #24883b;
+            cursor: pointer;
+        }
+        .github-icon{
+            font-size: 27px;
+            margin-right: 5px;
+        }
+    }
+}
