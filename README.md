@@ -2,13 +2,11 @@
 
 - 실행동영상 첨부확인
 - 서버가 있어서 Heroku 배포 시도
-- 🙋‍♂️ 문제점 : Heroku로 업로드 못함(3일간 내내 삽질 했습니다. ㅠㅠ 도와주세요.)
+- 🙋‍♂️ 문제점 : Heroku로 업로드 못함(3일간 내내 삽질 했습니다)
 - 시도❗ 읽어주세요.
   : 현재 클라이언트, 서버 둘다 build 되고 Heroku로 push까지 다 했습니다.
   : heroku logs --tail로 확인했을 경우 server -> build/init.js 를 찾을 수 없다고 합니다.  
    ("start": "node build/init.js",)
-  : pakckage.json 변경건 남김없이 다 업로드 했는데도... 계속 나와서 ㅠㅠ 업로드 못하고있습니다.
-  : 제발도와주세요..ㅠ tft0720@gmail.com 로 부탁드립니다. 📌 답변기다릴게요..
 
 ## Skills(Base Node.JS)
 
